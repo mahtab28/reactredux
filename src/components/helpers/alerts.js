@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {NotificationContainer, NotificationManager} from 'react-notifications';
+import {NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 
 export default class Alerts  extends Component {
