@@ -20,9 +20,11 @@
     npm install
     ```
 3. NPM start to run this project
+
+    ```shell
+    npm start
+    ```
 ##Folder Structure
-```
-.
 +-- public
 +-- src
 |	+-- components
