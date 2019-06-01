@@ -9,7 +9,7 @@ class Header extends Component { // eslint-disable-line react/prefer-stateless-f
       <header className="font-small indigo">
         <nav className="navbar navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav">
           <div className="float-left">
-            <a href="#" data-activates="slide-out" className="button-collapse"><i className="fas fa-bars"></i></a>
+            <a href="/" data-activates="slide-out" className="button-collapse"><i className="fas fa-bars"></i></a>
           </div>
           <div className="breadcrumb-dn mr-auto">
             <p className="font-weight-bold text-white">React Redux Test</p>
