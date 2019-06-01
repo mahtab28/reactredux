@@ -3,8 +3,8 @@ import React from 'react'
 import Alerts from './../../../components/helpers/alerts'
 import Validator from './../../../components/validator'
 
-const Notifications     = new Alerts;
-const valid             = new Validator;
+const Notifications     = new Alerts();
+const valid             = new Validator();
 
   let response          = null;
   /* add course */
@@ -43,7 +43,7 @@ const valid             = new Validator;
       /* notification message*/
       alert(response)
       dispatch({
-        type: ADD_STUDENT,
+        type: DELETE_STUDENT,
         payload: response.students
       })
       if( response.success )
