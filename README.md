@@ -24,7 +24,7 @@
     ```shell
     npm start
     ```
-##Folder Structure
+## Folder Structure
 ```
 .
 +-- public
