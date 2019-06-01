@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {NotificationContainer, NotificationManager} from 'react-notifications';
-import 'react-notifications/lib/notifications.css';
 
 export default class Index  extends Component {
 
@@ -8,7 +6,7 @@ export default class Index  extends Component {
     validateCourse(data, courses){
       try {
         let course = data.target.course.value
-        if( courses.findIndex( list => list.name === course) == -1 ){
+        if( courses.findIndex( list => list.name === course) === -1 ){
           courses.push({id: this.generatItemId(courses), name: course})
           return {courses:courses, success: 'Course has been added successfully!'}
         }
@@ -28,7 +26,7 @@ export default class Index  extends Component {
     */
     validateStudent(data, students){
       try {
-        
+
         let target      =  data.target
         let rollnumber  =  target.rollnumber.value
 
