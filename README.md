@@ -25,6 +25,8 @@
     npm start
     ```
 ##Folder Structure
+```
+.
 +-- public
 +-- src
 |	+-- components
