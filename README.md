@@ -1,7 +1,7 @@
 ######
-#React Redux APP
+# React Redux APP
 
-##System Requirements
+## System Requirements
 1. Node (Version 10.13.0)
 2. NPM (Version 6.5.0)
 3. 1 GB Ram(at least)
